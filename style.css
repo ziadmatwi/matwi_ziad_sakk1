@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    height: 100vh;
+    margin:0;
+    padding:0;
+    
+}
+
+.tableclass {
+    margin: auto;
+    padding-top: 100pt;
+}
+
+table {
+    margin: auto;
+    
+    color:rgb(219, 223, 185);
+    font-size:22pt;
+    border-collapse: collapse;
+    table-layout: fixed;
+    
+    
+}
+
+table th {
+    background-color: rgb(58, 56, 56);
+    padding:5pt;
+    vertical-align: bottom;
+}
+
+table td {
+    border: 1pt solid gray;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.firstrow td:nth-of-type(2n){
+    background-color: lightgrey;
+}
+
+.secondrow td:nth-of-type(2n+1){
+    background-color: lightgrey;
+}
